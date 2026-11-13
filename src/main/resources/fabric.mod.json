@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "telegramconnected",
+  "version": "${version}",
+  "name": "TelegramConnected",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/telegramconnected/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.femboy.TelegramConnected"
+    ]
+  },
+  "mixins": [
+    "telegramconnected.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
